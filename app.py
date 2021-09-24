@@ -7,7 +7,7 @@ import scipy as sp
 #import plotly.graph_objects as go
 import plotly.express as px
 
-#from PIL import Image
+from PIL import Image
 
 def load_data(path):
     data=pd.read_csv(path)
@@ -107,10 +107,10 @@ list_corona=['Scatter Plot', 'Pie Chart', 'Bar Plot','Line Plot', 'Animated Map'
 st.markdown('###')
 
 if box == ' ':
-    #image = Image.open(r'C:\Users\User\Desktop\data2.jpg')
+    image = Image.open(r'C:\Users\User\Desktop\data2.jpg')
     
-    #st.image(image)
-    st.write('Data')
+    st.image(image)
+    
 
 if box =='Amazon Top 50 Bestselling Books 2009 - 2019':
     
