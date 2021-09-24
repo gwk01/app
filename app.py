@@ -107,7 +107,7 @@ list_corona=['Scatter Plot', 'Pie Chart', 'Bar Plot','Line Plot', 'Animated Map'
 st.markdown('###')
 
 if box == ' ':
-    image = Image.open(r'C:\Users\User\Desktop\data2.jpg')
+    image = Image.open('data2.jpg')
     
     st.image(image)
     
