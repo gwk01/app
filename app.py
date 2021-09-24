@@ -15,7 +15,7 @@ def load_data(path):
 
 
 #Load Data
-data=load_data(r"C:\Users\User\OneDrive\MSBA 325 - Data Visualization\Assignments\Ghina Koteich, A2\covid_19_data.csv")
+data=load_data("covid_19_data.csv")
 
 #Data Pre-processing
 #Rename columns for better synchronization with the remaining columns 
@@ -71,7 +71,7 @@ map= px.choropleth(data, locations="Country/Region",locationmode = "country name
 
 
 #Load Books Data 
-books=load_data(r'C:\Users\User\OneDrive\MSBA 325 - Data Visualization\Assignments\Ghina Koteich, A2\bestsellers with categories.csv')
+books=load_data('bestsellers with categories.csv')
 
 #Pre-processing Books Data 
 #Sort Year column 
